@@ -1,0 +1,167 @@
+{
+  "project_info": {
+    "project_number": "869981355294",
+    "firebase_url": "https://hci-projects10202.firebaseio.com",
+    "project_id": "hci-projects10202",
+    "storage_bucket": "hci-projects10202.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869981355294:android:b537310154e8e942",
+        "android_client_info": {
+          "package_name": "com.ortegapatriciaa.application_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869981355294-5c59na5vgi3vno1h4a5int1rmkfi2sos.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ortegapatriciaa.application_2",
+            "certificate_hash": "eddd2e85e1c29f4594ad994fd60324757276b56c"
+          }
+        },
+        {
+          "client_id": "869981355294-6o8ts667tbqgdrq249cssqnv6f6b2hp8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ortegapatriciaa.application_2",
+            "certificate_hash": "31f18ebef257cdf8b9a6b887ce005063fa26f7f9"
+          }
+        },
+        {
+          "client_id": "869981355294-nla4eoo18mmviid2ml44qf168mpf9j2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4njG8peyA9Nr5-FOFvrzfuxPpcAVEBkI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869981355294-nla4eoo18mmviid2ml44qf168mpf9j2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869981355294:android:252353be38c0fa4a",
+        "android_client_info": {
+          "package_name": "com.ortegapatriciaa.hcifinal_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869981355294-66j1n95bbngsfpovjbrndr0d5iq3h1vd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ortegapatriciaa.hcifinal_project",
+            "certificate_hash": "eddd2e85e1c29f4594ad994fd60324757276b56c"
+          }
+        },
+        {
+          "client_id": "869981355294-ocaahallgm4aflndnuvnjds3glgjop88.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ortegapatriciaa.hcifinal_project",
+            "certificate_hash": "11aa462547daea167aaf870aa7a7e27bbb0f7a73"
+          }
+        },
+        {
+          "client_id": "869981355294-nla4eoo18mmviid2ml44qf168mpf9j2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4njG8peyA9Nr5-FOFvrzfuxPpcAVEBkI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869981355294-nla4eoo18mmviid2ml44qf168mpf9j2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869981355294:android:c84ff7cd636d44b1",
+        "android_client_info": {
+          "package_name": "com.ortegapatriciaa.hcifinal_projectadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869981355294-e1kghv5j8elrbpqeio8p5ndmn1571lt7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ortegapatriciaa.hcifinal_projectadmin",
+            "certificate_hash": "eddd2e85e1c29f4594ad994fd60324757276b56c"
+          }
+        },
+        {
+          "client_id": "869981355294-i21u6mb3e0hqnklu7nuthh54je44c7a2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ortegapatriciaa.hcifinal_projectadmin",
+            "certificate_hash": "a673c8d2cacf77aa5dc1f02bc4273e26d69e4177"
+          }
+        },
+        {
+          "client_id": "869981355294-nla4eoo18mmviid2ml44qf168mpf9j2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4njG8peyA9Nr5-FOFvrzfuxPpcAVEBkI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869981355294-nla4eoo18mmviid2ml44qf168mpf9j2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
