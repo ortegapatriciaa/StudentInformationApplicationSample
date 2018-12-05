@@ -4,9 +4,9 @@ package com.ortegapatriciaa.application_2;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -21,11 +21,17 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.ortegapatriciaa.application_2.Common.Common;
 
+import org.languagetool.JLanguageTool;
+import org.languagetool.rules.RuleMatch;
+import java.io.IOException;
+import java.util.List;
+
 public class LoginActivity extends AppCompatActivity {
 
     EditText email, password;
     Button btnLogin;
     TextView signup;
+    private String check = "A sentence with a error in the Hitchhiker's Guide tot he Galaxy";
 
     private FirebaseDatabase database;
     private DatabaseReference databaseReference;

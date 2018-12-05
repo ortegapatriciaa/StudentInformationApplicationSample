@@ -12,6 +12,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.ortegapatriciaa.application_2.Common.Common;
 
+import org.languagetool.JLanguageTool;
+
 public class EditActivity extends AppCompatActivity {
 
     EditText ename, eemail, ebirthdate, epassword;
@@ -24,6 +26,7 @@ public class EditActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit);
+
 
         getSupportActionBar().setTitle("Edit Account Info");
 
