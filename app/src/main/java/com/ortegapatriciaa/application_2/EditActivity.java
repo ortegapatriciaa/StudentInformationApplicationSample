@@ -25,6 +25,8 @@ public class EditActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit);
 
+        getSupportActionBar().setTitle("Edit Account Info");
+
         ename = (EditText) findViewById(R.id.editName);
         eemail = (EditText) findViewById(R.id.editEmail);
         ebirthdate = (EditText) findViewById(R.id.editBirthdate);
