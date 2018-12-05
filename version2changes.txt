@@ -1,3 +1,0 @@
-Version 2
-change the font color of the button
-change the backgroun of the signup activity

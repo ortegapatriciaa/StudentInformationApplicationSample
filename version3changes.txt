@@ -1,0 +1,2 @@
+Version 2
+change the font color of the button in the edit activity
