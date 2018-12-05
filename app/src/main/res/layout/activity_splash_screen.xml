@@ -14,7 +14,8 @@
         android:text="Student Information App"
         android:layout_gravity="center_horizontal"
         android:textColor="@color/colorBlack"
-        android:textSize="20sp"
-        android:layout_marginTop="200dp"/>
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:layout_marginTop="170dp"/>
 
 </LinearLayout>

@@ -1,6 +1,0 @@
-Version 3
-Add design in login
-hide the action bar in login
-change the app name
-add the back button in the edit activity
-change the action bar title in the edit activity
