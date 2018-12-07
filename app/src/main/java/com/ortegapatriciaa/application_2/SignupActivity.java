@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.FirebaseApp;
@@ -28,6 +29,7 @@ public class SignupActivity extends AppCompatActivity {
 
     EditText sname, semail, sbirthdate, susername, spassword, sconpassword;
     Button btnSignup;
+    TextView btnlogin;
 
     private Calendar cal;
     private int day;
@@ -44,7 +46,7 @@ public class SignupActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
-        getSupportActionBar().setTitle("Signup");
+        getSupportActionBar().hide();
 
         progressDialog = new ProgressDialog(this);
 
@@ -57,6 +59,7 @@ public class SignupActivity extends AppCompatActivity {
         susername = (EditText) findViewById(R.id.editText_susername);
         spassword = (EditText) findViewById(R.id.editText_spassword);
         sconpassword = (EditText) findViewById(R.id.editText_sconpassword);
+        btnlogin = (TextView) findViewById(R.id.textview_login);
         btnSignup = (Button) findViewById(R.id.btnSignup);
 
         firebaseDatabase = FirebaseDatabase.getInstance();
@@ -66,6 +69,13 @@ public class SignupActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 dateDialog();
+            }
+        });
+
+        btnlogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SignupActivity.this, LoginActivity.class));
             }
         });
 

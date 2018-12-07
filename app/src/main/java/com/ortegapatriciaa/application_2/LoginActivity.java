@@ -21,8 +21,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.ortegapatriciaa.application_2.Common.Common;
 
-import org.languagetool.JLanguageTool;
-import org.languagetool.rules.RuleMatch;
 import java.io.IOException;
 import java.util.List;
 
